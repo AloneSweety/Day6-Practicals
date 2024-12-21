@@ -76,7 +76,7 @@ catch(Exception $e){
                         echo "<td>$value</td>";
                     }
                     $book_id=$row['book_id'];
-                    echo "<td><a href='printtable.php? book_id=$book_id '> View </a> </td>";
+                    echo "<td><a href='printTable.php? book_id=$book_id '> View </a> </td>";
 
                     echo "</tr>";
                     }
